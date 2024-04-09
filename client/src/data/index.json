@@ -1,0 +1,211 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "HTML, CSS, JavaScript, Bootstrap, AJAX, JSON, React.js"
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Node.js, Express.js, MongoDB, Mongoose, Redux.js, FireBase"
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Development Tools",
+      "description": "Microsoft Visual Studio Code, Tailwind CSS, Figma, AEM"
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Platforms",
+      "description": "Windows, Git, GitHub, AWS"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.png",
+      "title": "Contruction Web",
+      "description": "ConstructionWeb is a dynamic web application designed to streamline construction project management. It utilizes a responsive interface with Bootstrap and Tailwind CSS, ensuring accessibility on all devices. The backend is powered by Node.js and Express.js, providing robust server-side functionality. Data is managed efficiently using MongoDB, while AJAX and JSON enhance interactivity and data exchange, creating a seamless user experience.",
+      "skills": "HTML, CSS, Javascript, BootStrap, React.js, TailwindCSS, Node.js, Express.js, MongoDB",
+      "link2": "Live Demo",
+      "url2": "https://constructionwebiste.netlify.app",
+      "link": "View In Github",
+      "url": "https://github.com/shivtej1201/contructionWeb"
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-1.png",
+      "title": "Hotel Management",
+      "description": "Designed for seamless guest experiences, the Hotel Management project integrates HTML for structure, CSS for styling, and JavaScript for interactive elements. BootStrap ensures responsiveness, while Tailwind CSS streamlines design. React.js optimizes UI rendering, and Node.js with Express.js handles server-side logic. while AJAX and JSON enhance interactivity and data exchange, MongoDB facilitates efficient data storage and retrieval, ensuring smooth operations.",
+      "skills": "HTML, CSS, Javascript, BootStrap, React.js, TailwindCSS, Node.js, Express.js, MongoDB",
+      "link2": "Live Demo",
+      "url2": "https://hospitalmanagementserver.netlify.app",
+      "link": "View In Github",
+      "url": "https://github.com/shivtej1201/Hotel-Management"
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Flipkart Clone App",
+      "description": "I developed a replica of the popular e-commerce platform, Flipkart. This project involved creating a user-friendly interface for browsing products, adding them to cart, and processing orders. I implemented features such as user authentication, product search, and category navigation. The app also includes an admin panel for managing products, orders, and users. Built with a responsive design, the app ensures seamless user experience across devices.",
+      "skills": "HTML, CSS, Javascript, BootStrap, React.js, TailwindCSS, Node.js, Express.js, MongoDB",
+      "link2": "Live Demo",
+      "url2": "https://flipcartcloneapp.netlify.app",
+      "link": "View In Github",
+      "url": "https://github.com/shivtej1201/FlipcartCloneApp"
+    },
+    {
+      "id": "4",
+      "src": "./img/placeholder-image.png",
+      "title": "OpenShift LandingPage",
+      "description": "I am completed an OpenShift landing page project, showcasing their proficiency in front-end technologies like HTML, CSS, and JavaScript. They utilized Bootstrap and Tailwind CSS for responsive design, enhancing user experience. React.js was employed to create dynamic elements, ensuring seamless interaction.      ",
+      "skills": "HTML, CSS, Javascript, BootStrap",
+      "link2": "Live Demo",
+      "url2": "https://openshiftlandingpage.netlify.app/",
+      "link": "View In Github",
+      "url": "https://github.com/shivtej1201/OpenShift-LandingPage"
+    },
+    {
+      "id": "5",
+      "src": "./img/placeholder-image-1.png",
+      "title": "The Secret-Book",
+      "description": "The Secret Book project is a web application that allows users to store and manage their personal notes, thoughts, and ideas securely. organize them into categories, and search for specific notes. The project utilizes HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, and React.js to provide a user-friendly interface and seamless user experience.",
+      "skills": "HTML, CSS, Javascript, BootStrap",
+      "link2": "Live Demo",
+      "url2": "https://thesecretbook.netlify.app/",
+      "link": "View In Github",
+      "url": "https://github.com/shivtej1201/the-secret"
+    },
+    {
+      "id": "6",
+      "src": "./img/placeholder-image-2.png",
+      "title": "BajajTechnologyPage",
+      "description": "BajajTechnologyPage is a dynamic and responsive web application showcasing the latest in technology. It integrates HTML for structure, CSS for styling, and JavaScript for interactivity. While Tailwind CSS adds modern design elements. React.js powers the frontend, enabling fast and seamless user interactions.",
+      "skills": "HTML, CSS, Javascript, BootStrap",
+      "link2": "Live Demo",
+      "url2": "bajajtechnology.netlify.app",
+      "link": "View In Github",
+      "url": "https://github.com/shivtej1201/BajajTechnologyPage"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "certifiction": "./img/OneImg.jpg",
+      "author_name": "Front-End Development",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "certifiction": "./img/2.jpg",
+      "author_name": "Front-End Development(React)",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "certifiction": "./img/3.jpg",
+      "author_name": "SQL",
+      "author_designation": "McDonald's"
+    },
+    {
+      "id": "4",
+      "count": "5",
+      "certifiction": "./img/4.jpg",
+      "author_name": "JavaScript",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "5",
+      "count": "5",
+      "certifiction": "./img/5.jpg",
+      "author_name": "Flutter Course",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "6",
+      "count": "5",
+      "certifiction": "./img/6.jpg",
+      "author_name": "Software Engineer",
+      "author_designation": "McDonald's"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Msc.Computer Science",
+      "author_name": "2022-Present",
+      "author_designation": "A",
+      "url": "https://drive.google.com/file/d/1Cj10asQLWvnQpwSYXtQGvI31iH7hwKT2/view?usp=sharing"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Bsc.Computer Science",
+      "author_name": "2019-2022",
+      "author_designation": "A+",
+      "url": "https://drive.google.com/file/d/1BkYs5iEbY5SXvYb2vyZrrzu8-sHdzK4a/view?usp=sharing"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Full Stack Development",
+      "author_name": "2022-2023",
+      "author_designation": "A",
+      "url": "https://drive.google.com/file/d/1j1Cf1G_lkjPJeGHXnuxKTrS1ynYsX1NL/view?usp=sharing"
+    }
+  ],
+  "experience": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "company": "Bajaj Finserv Direct Limited",
+      "author_name": "Software Developer",
+      "author_designation": "Feb_2024 - Present",
+      "description1": "• Focus on developing engaging web content and managing content within the Adobe Experience Manager (AEM) platform",
+      "description2": "• Proficient in HTML scripting, including creating and maintaining HTML emails, ensuring consistent branding and messaging.",
+      "description3": "• Skilled in CSS for styling web content, ensuring a visually appealing and user-friendly experience.",
+      "description4": "• Experience in JavaScript and React.js for implementing interactive elements and enhancing user engagement.",
+      "description5": "• Working on the backend of the Bajajmall website, developing and maintaining the website's functionality and performance.",
+      "description6": "• Actively learning and developing skills in content management systems, content development, and other related areas to enhance web content strategy and delivery."
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "company": "Osumare Marketing Solutions",
+      "author_name": "Full Stack Developer - Intern",
+      "author_designation": "Nov_2023 - Feb_2024",
+      "description1": "• Frontend Proficiency: Utilized React.js to craft responsive and engaging user interfaces. Demonstrated expertise in HTML, CSS, and JavaScript for seamless and visually appealing experiences. Employed Tailwind CSS for streamlined styling, ensuring a modern and consistent design.",
+      "description2": "• Backend Mastery: Leveraged Node.js and Express.js to build robust server-side components. Implemented scalable APIs, ensuring efficient server request handling. Mastered MongoDB for database management, optimizing data storage and retrieval.",
+      "description3": "• Tools and Technologies: Efficiently used Git for version control, managing code repositories seamlessly. Employed Postman for rigorous API testing, ensuring backend reliability and functionality.",
+      "description4": "• Project Contributions: Actively participated in feature implementation, bug fixes, and performance optimizations. Engaged in collaborative problem-solving with the development team to meet project milestones.",
+      "description5": "• Learning and Growth: Gained hands-on experience in a real-world setting, refining technical skills. Acquired valuable insights into the intricacies of full-stack development. Enhanced proficiency in React.js, Node.js, MongoDB, and associated tools."
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "company": "Felix-IT Systems",
+      "author_name": "Trainee - Apprenticeship",
+      "author_designation": "Dec_2022 - June_2023",
+      "description1": "• Dynamic and results-oriented Full Stack Developer with a strong foundation in the MERN (MongoDB, Express.js, React.js, Node.js) stack. Leveraging a comprehensive understanding of modern web development, I bring hands-on experience in designing and implementing scalable applications. My proficiency extends from efficient database management with MongoDB to crafting intuitive user interfaces with React.js.",
+      "description2": "• Full Stack Expertise: Adept at both server-side and client-side development, offering end-to-end solutions for seamless user experiences.",
+      "description3": "• Innovative Problem Solver: Known for creative problem-solving and implementing efficient solutions to optimize application performance.      ",
+      "description4": "• Collaborative Team Player: Thrives in collaborative environments, contributing to the success of projects through effective communication and teamwork.",
+      "description5": "•  Adaptive Learner: Keen on staying updated with the latest industry trends, continuously expanding skills to meet evolving technological demands.      "
+    }
+  ]
+}
