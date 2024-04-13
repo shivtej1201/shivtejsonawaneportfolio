@@ -6,7 +6,9 @@ export default function Testimonial() {
       <div className="portfolio--container-box">
         <div className="portfolio--container">
           {/* <p className="sub--title">Clients Feedback</p> */}
-          <h2 className="sections--heading">Licenses & certifications</h2>
+          <h2 className="skills--section--heading">
+            Licenses & certifications
+          </h2>
         </div>
       </div>
       <div className="portfolio--section--container">
@@ -23,7 +25,7 @@ export default function Testimonial() {
             <div className="testimonial--section--card--author--detail">
               {/* <img src={item.src} alt="Avatar" /> */}
               <div>
-                <p className="text-md testimonial--author--name"> 
+                <p className="text-md testimonial--author--name">
                   {item.author_name}
                 </p>
                 <p className="text-md testimonial--author--designation">

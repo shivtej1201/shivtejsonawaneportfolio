@@ -63,20 +63,7 @@ function Navbar() {
               Home
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={400}
-              to="MyPortfolio"
-              className="navbar--content"
-            >
-              Portfolio
-            </Link>
-          </li>
+
           <li>
             <Link
               onClick={closeMenu}
@@ -113,10 +100,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={400}
-              to="AboutMe"
+              to="MyPortfolio"
               className="navbar--content"
             >
-              About Me
+              Portfolio
             </Link>
           </li>
           <li>
@@ -131,6 +118,20 @@ function Navbar() {
               className="navbar--content"
             >
               Certifications
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={400}
+              to="AboutMe"
+              className="navbar--content"
+            >
+              About Me
             </Link>
           </li>
         </ul>

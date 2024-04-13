@@ -28,7 +28,7 @@ p {
 .btn {
   font-family: "Roboto";
   display: inline-block;
-  padding: 14px 32px;
+  padding: 12px 32px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -46,6 +46,12 @@ p {
   -moz-transition: background-color 0.5s;
   -ms-transition: background-color 0.5s;
   -o-transition: background-color 0.5s;
+}
+.readMorebtn {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
 }
 .btn-outline-primary {
   color: var(--primary);
@@ -130,6 +136,7 @@ h2 {
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
+  /* padding-bottom: 8px; */
 }
 .text-md_exp {
   color: var(--darkblue);
@@ -269,15 +276,15 @@ h2 {
 /* Skills Section Style */
 .skills--section {
   display: flex;
-  padding: 25px 85.33px;
+  padding: 25px 64px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 40px;
+  gap: 24px;
 }
 .skills--section--heading {
   color: var(--heading-color);
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 700;
   line-height: 77px;
 }
@@ -312,8 +319,8 @@ h2 {
   align-items: center;
   gap: 13.3px;
   border-radius: 10.6px;
-  background: #fff;
-  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+  /* background: #fff;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1); */
 }
 .skills--section--card--content {
   display: flex;
@@ -340,9 +347,9 @@ h2 {
 /* About Us */
 .about--section {
   display: flex;
-  padding: 25px 85.3px;
+  padding: 25px 64px;
   align-items: center;
-  gap: 114.6px;
+  gap: 24px;
   grid-template-columns: repeat(2, 1fr);
 }
 .about--section--img > img {
@@ -354,10 +361,10 @@ h2 {
 /* My Portfolio Starts */
 .portfolio--section {
   display: flex;
-  padding: 25px 85px;
+  padding: 25px 64px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 80px;
+  gap: 24px;
 }
 .portfolio--container-box {
   display: flex;
@@ -424,10 +431,10 @@ h2 {
 /* Testimonial */
 .testimonial--section {
   display: flex;
-  padding: 25px 84.3px;
+  padding: 25px 64px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 80px;
+  gap: 24px;
   background-color: var(--bg-shade);
 }
 .sections--heading {
@@ -438,7 +445,7 @@ h2 {
   padding: 42.6px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 42.6px;
+  gap: 8px;
   flex: 1 0 0;
   border-radius: 8px;
   border: 1.33px solid #006b6a;
@@ -486,25 +493,25 @@ h2 {
 /* Testimonial Ends */
 .contact--section {
   display: flex;
-  padding: 25px 85px;
+  padding: 25px 64px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 64px;
+  gap: 20px;
 }
 .contact--form--container {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(5, auto);
   width: 40%;
-  row-gap: 32px;
+  row-gap: 8px;
 }
 .container {
   display: grid;
   grid-template-columns: repeat(2, auto);
   column-gap: 32px;
-  row-gap: 32px;
+  row-gap: 8px;
 }
 .contact--label {
   display: flex;
@@ -517,7 +524,7 @@ h2 {
 .contact--input {
   display: flex;
   font-family: "Roboto";
-  padding: 16px;
+  padding: 8px 12px;
   align-items: center;
   align-self: stretch;
   border-radius: 8px;
@@ -559,7 +566,7 @@ input[type="checkbox"] {
 /* Footer Starts */
 .footer--container {
   display: flex;
-  padding: 60px 85.333px;
+  padding: 60px 64px;
   flex-direction: column;
   align-items: flex-start;
   background: var(--bg-shade);
@@ -633,7 +640,7 @@ input[type="checkbox"] {
 
 @media only screen and (max-width: 1600px) {
   .skills--section--heading {
-    font-size: 54px;
+    font-size: 48px;
     line-height: 70px;
   }
   .skills--section--container {
@@ -659,6 +666,14 @@ input[type="checkbox"] {
   .btn-outline-primary {
     display: none;
   }
+
+  .HomeButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+  }
+
   .hero--section {
     display: flex;
     flex-direction: column-reverse;

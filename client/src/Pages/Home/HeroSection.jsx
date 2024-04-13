@@ -5,15 +5,14 @@ export default function HeroSection() {
         <div className="hero--section--content">
           <p className="section--title">Hey 👋 , I'm Shivtej Sonawane</p>
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color">MERN Stack</span>{" "}
-            <br />
+            <span className="hero--section-title--color">Software</span> <br />
             Developer
           </h1>
           <p className="hero--section-description">
             Software Developer at Bajaj Finserv || Full Stack Developer ||
             Graduation in Master of Computer Science(MCS) at Savitribai Phule
             Pune University || MERN Stack ||
-            <br /> A passionate Mern Stack Developer from Pune
+            <br /> A passionate Software Developer from Pune
           </p>
         </div>
         <div className="HomeButton">
@@ -23,7 +22,7 @@ export default function HeroSection() {
         </div>
       </div>
       <div className="hero--section--img">
-        <img src="./img/1.png" alt="Hero Section" />
+        <img src="./img/SHIVTEJ_PNG.png" alt="Hero Section" />
       </div>
     </section>
   );

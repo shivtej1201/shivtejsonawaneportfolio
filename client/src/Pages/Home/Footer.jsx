@@ -27,19 +27,7 @@ function Footer() {
                 Home
               </Link>
             </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="MyPortfolio"
-                className="text-md"
-              >
-                Portfolio
-              </Link>
-            </li>
+
             <li>
               <Link
                 activeClass="navbar--active-content"
@@ -73,6 +61,32 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                to="MyPortfolio"
+                className="text-md"
+              >
+                Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="testimonial"
+                className="text-md"
+              >
+                Certifications
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
                 to="AboutMe"
                 className="text-md"
               >
@@ -90,19 +104,6 @@ function Footer() {
                 className="text-md"
               >
                 Contact
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="testimonial"
-                className="text-md"
-              >
-                Testimonials
               </Link>
             </li>
           </ul>

@@ -154,6 +154,7 @@ const ContactMe = () => {
     message: "",
     checkbox: false,
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
     const { name, value, checked, type } = e.target;
@@ -165,14 +166,18 @@ const ContactMe = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
     try {
-      const response = await fetch("http://localhost:5000/send-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://shivtejsonawaneportfolio.onrender.com/send-email",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
       const data = await response.json();
       Swal.fire({
         title: "Thank You For Enquiry",
@@ -186,15 +191,17 @@ const ContactMe = () => {
         text: "Failed to send email",
         icon: "error",
       });
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
   return (
     <section id="Contact" className="contact--section">
       <div>
-        <p className="sub--title">Get In Touch</p>
-        <h2>Contact Me</h2>
-        <p className="text-lg">Hi 👋, I'm Shivtej here</p>
+        <p className="sub--title"></p>
+        <h2>Get In Touch</h2>
+        <p className="text-lg">Let's Start a Conversation 👨‍💻</p>
       </div>
       <form className="contact--form--container" onSubmit={handleSubmit}>
         <div className="container">
@@ -271,9 +278,14 @@ const ContactMe = () => {
           />
           <span className="text-sm">I accept the terms</span>
         </label>
+
         <div>
-          <button type="submit" className="btn btn-primary contact--form--btn">
-            Submit
+          <button
+            type="submit"
+            className="btn btn-primary contact--form--btn"
+            disabled={isSubmitting}
+          >
+            {isSubmitting ? "Sending..." : "Submit"}
           </button>
         </div>
       </form>

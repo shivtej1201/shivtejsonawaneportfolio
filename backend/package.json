@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +16,9 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "nodemailer": "^6.9.13",
-    "sweetalert2": "^11.10.7"
+    "sweetalert2": "^11.6.13"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
   }
 }

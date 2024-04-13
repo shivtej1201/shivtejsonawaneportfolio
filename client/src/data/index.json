@@ -2,27 +2,27 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
+      "src": "./img/skill2.png",
       "title": "Front-End",
       "description": "HTML, CSS, JavaScript, Bootstrap, AJAX, JSON, React.js"
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
+      "src": "./img/skill3.png",
       "title": "Back-End",
       "description": "Node.js, Express.js, MongoDB, Mongoose, Redux.js, FireBase"
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
+      "src": "./img/skill1.png",
       "title": "Development Tools",
       "description": "Microsoft Visual Studio Code, Tailwind CSS, Figma, AEM"
     },
     {
       "id": "4",
-      "src": "./img/feather-pen-1.png",
+      "src": "./img/skill4.png",
       "title": "Platforms",
-      "description": "Windows, Git, GitHub, AWS"
+      "description": "Windows, Git, GitHub, AWS, Render, Netlify"
     }
   ],
   "portfolio": [
@@ -84,11 +84,11 @@
     {
       "id": "6",
       "src": "./img/placeholder-image-2.png",
-      "title": "BajajTechnologyPage",
+      "title": "BajajTechnology Page",
       "description": "BajajTechnologyPage is a dynamic and responsive web application showcasing the latest in technology. It integrates HTML for structure, CSS for styling, and JavaScript for interactivity. While Tailwind CSS adds modern design elements. React.js powers the frontend, enabling fast and seamless user interactions.",
       "skills": "HTML, CSS, Javascript, BootStrap",
       "link2": "Live Demo",
-      "url2": "bajajtechnology.netlify.app",
+      "url2": "https://bajajtechnology.netlify.app/",
       "link": "View In Github",
       "url": "https://github.com/shivtej1201/BajajTechnologyPage"
     }
@@ -111,8 +111,8 @@
     {
       "id": "3",
       "count": "5",
-      "certifiction": "./img/3.jpg",
-      "author_name": "SQL",
+      "certifiction": "./img/3.jpeg",
+      "author_name": "Node.JS",
       "author_designation": "McDonald's"
     },
     {
@@ -174,12 +174,12 @@
       "company": "Bajaj Finserv Direct Limited",
       "author_name": "Software Developer",
       "author_designation": "Feb_2024 - Present",
-      "description1": "• Focus on developing engaging web content and managing content within the Adobe Experience Manager (AEM) platform",
-      "description2": "• Proficient in HTML scripting, including creating and maintaining HTML emails, ensuring consistent branding and messaging.",
-      "description3": "• Skilled in CSS for styling web content, ensuring a visually appealing and user-friendly experience.",
-      "description4": "• Experience in JavaScript and React.js for implementing interactive elements and enhancing user engagement.",
-      "description5": "• Working on the backend of the Bajajmall website, developing and maintaining the website's functionality and performance.",
-      "description6": "• Actively learning and developing skills in content management systems, content development, and other related areas to enhance web content strategy and delivery."
+      "description1": "• Developed and maintained web applications using HTML, CSS, and JavaScript to meet client requirements.",
+      "description2": "• Utilized React.js for building interactive user interfaces, enhancing user experience.",
+      "description3": "• Implemented server-side logic using Node.js and Express.js to handle client requests.",
+      "description4": "• Managed and stored data using MongoDB and Firebase, ensuring data integrity and security. Participated in code reviews and troubleshooting sessions to identify and resolve issues promptly.",
+      "description5": "• Integrated JSON and AJAX for efficient data exchange between the client and server. Collaborated with cross-functional teams to design and implement new features, ensuring code quality and performance.",
+      "description6": "• Kept up-to-date with industry trends and best practices, incorporating them into development processes to improve efficiency and maintainability."
     },
     {
       "id": "2",
